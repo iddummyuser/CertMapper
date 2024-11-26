@@ -53,8 +53,8 @@ pyOpenSSL
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ssl-certificate-scanner.git
-cd ssl-certificate-scanner
+git clone https://github.com/iddummyuser/CertMapper.git
+cd CertMapper
 ```
 
 2. Install required packages:
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 2. Run the scanner:
 ```bash
-python ssl_scanner.py ranges.txt \
+python CertMapper.py ranges.txt \
     --ports 443,8443 \
     --threads 20 \
     --timeout 3 \
